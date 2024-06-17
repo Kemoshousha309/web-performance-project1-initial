@@ -81,7 +81,7 @@ header .logo a {
 }
 
 header .logo .blue-dot {
-    background-color: #33c6dd;
+    background-color: #B0052D;
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -116,7 +116,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #33c6dd;
+    color: #B0052D;
 }
 
 header nav ul li:last-of-type a {
@@ -182,7 +182,7 @@ section.hero img.desktop {
     width: 220px;
     max-width: 100%;
     border-radius: 92px;
-    background-color: #33c6dd;
+    background-color: #B0052D;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
@@ -195,9 +195,9 @@ section.hero img.desktop {
 }
 
 .hero-content button:hover {
-    color: #33c6dd;
+    color: #B0052D;
     background-color: #FFF;
-    border: 1px solid #33c6dd;
+    border: 1px solid #B0052D;
 }
 
 
@@ -226,7 +226,7 @@ section.best-sellers h1 {
 
 section.best-sellers hr {
     border: none;
-    border-top: 5px solid #33c6dd;
+    border-top: 5px solid #B0052D;
     width: 66px;
 }
 
@@ -293,7 +293,7 @@ section.best-sellers .product-slider .product .product-info {
 }
 
 section.best-sellers .product-slider .product .product-info .categories {
-    color: #33c6dd;
+    color: #B0052D;
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 0.35px;
@@ -350,8 +350,8 @@ section.best-sellers .product-slider .product .product-info button {
 }
 
 section.best-sellers .product-slider .product:hover .product-info button {
-    background-color: #33c6dd;
-    border: 1px solid #33c6dd;
+    background-color: #B0052D;
+    border: 1px solid #B0052D;
     color: white;
 }
 
@@ -454,7 +454,7 @@ footer .bottom-nav ul li a {
 }
 
 footer .bottom-nav ul li a:hover {
-    color: #33c6dd;
+    color: #B0052D;
 }
 
 footer .bottom-nav ul li.list-title {
@@ -694,7 +694,7 @@ footer .copyright-text {
     }
 
     section.best-sellers hr {
-        border-top: 4px solid #33c6dd;
+        border-top: 4px solid #B0052D;
         width: 40px;
     }
 
