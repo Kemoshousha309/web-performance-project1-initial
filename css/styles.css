@@ -327,7 +327,7 @@ section.best-sellers .product-slider .product .product-info .price .discounted-p
 }
 
 section.best-sellers .product-slider .product .product-info .price .original-price {
-    color: #9B9B9B;
+    color: #EC1C1C; 
     font-weight: normal;
     font-size: 16px;
     letter-spacing: 0.4px;
@@ -716,6 +716,12 @@ footer .copyright-text {
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 0.5px;
+        color: #B0052D;
+    }
+
+    .original-price {
+
+        color: #B0052D;
     }
     
     section.best-sellers .product-slider .product .product-info .price .original-price {
