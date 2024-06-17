@@ -14,21 +14,21 @@ function showTopBar(){
 showTopBar();
 
 // lazy load script based on screen intersection
-document.addEventListener('DOMContentLoaded', function() {
-    var observer = new IntersectionObserver(function(entries, observer) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                var script = document.createElement('script');
-                script.src = 'js/products.js';
-                document.body.appendChild(script);
-                observer.unobserve(entry.target); // Stop observing once the script is loaded
-            }
-        });
-    }, { rootMargin: '0px', threshold: 0.1 });
+// document.addEventListener('DOMContentLoaded', function() {
+//     var observer = new IntersectionObserver(function(entries, observer) {
+//         entries.forEach(function(entry) {
+//             if (entry.isIntersecting) {
+//                 var script = document.createElement('script');
+//                 script.src = 'js/products.js';
+//                 document.body.appendChild(script);
+//                 observer.unobserve(entry.target); // Stop observing once the script is loaded
+//             }
+//         });
+//     }, { rootMargin: '0px', threshold: 0.1 });
 
-    var target = document.getElementById('all-products');
-    observer.observe(target);
-});
+//     var target = document.getElementById('all-products');
+//     observer.observe(target);
+// });
 
 
 
