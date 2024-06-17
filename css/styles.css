@@ -1,9 +1,40 @@
+@font-face {
+    font-family: 'playWrite';
+    src: url('../fonts/PlaywriteSK-Regular.ttf') format('TrueType');
+    /* Add additional formats if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playWrite';
+    src: url('../fonts/PlaywriteSK-Thin.ttf') format('TrueType');
+    /* Add additional formats if needed */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playWrite';
+    src: url('../fonts/PlaywriteSK-Light.ttf') format('TrueType');
+    /* Add additional formats if needed */
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playWrite';
+    src: url('../fonts/PlaywriteSK-ExtraLight.ttf') format('TrueType');
+    /* Add additional formats if needed */
+    font-weight: 100;
+    font-style: normal;
+}
 
 
 
 body {
     margin: 0;
-    font-family: 'Heebo';
+    font-family: 'playWrite';
     padding-top: 80px;
 }
 
